@@ -11,6 +11,12 @@ h2 {
   font: bold 14px sans-serif;
 }
 
-header, nav, section, article, aside, footer {
+/* header,  nav, section, article, aside, footer hgroup{
   border: 1px solid black;
+  display: block;
+} */
+
+header, section, footer, aside, nav, article, hgroup {
+  border: 1px solid black;
+  display: block;
 }
