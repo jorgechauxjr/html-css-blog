@@ -23,6 +23,7 @@ header, section, footer, aside, nav, article, hgroup {
 
 body {
   text-align: center;
+  background: gray;
 }
 
 /* container of main info. Its size is 960px */
@@ -36,6 +37,7 @@ body {
   margin-right: auto;
   margin-bottom: 500px; */
   /* padding: 100px; */
+  background: white;
 }
 
 .theHeader {
@@ -68,26 +70,70 @@ body {
 /* The size is 600px, it is remaining 360 for the aside
 for a total of 960px. look up into group selector */
 .theSection {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   /* background: greenyellow; */ 
   margin: 20px;
   /* padding: 20px; */
   width: 600px;
+  /* width: 60%; */
   float: left;
-  background: yellow;
+  /* background: yellow; */
+}
+
+article {
+  background: #fffbcc;
+  border: 1px solid #999;
+  padding: 20px;
+  margin-bottom: 15px;
 }
 
 /* width 300 para to occupy the 360 remaining */
 .theAside {
   width: 300px;
-  border: 1px solid blue;
+  /* width: 30%; */
+  /* border: 1px solid blue; */
   float: left;
-  background: yellow;
+  /* background: yellow; */
   margin: 20px 0;
+}
+
+.theAside blockquote {
+  border: 1px solid black;
+  padding: 40px;
+  background: #FFFBB9;
+  margin-bottom: 20px;
 }
 
 /* Hace que seccion antes de footer (aside y eccion principal) vuelva a la normalidad
 sin el float */
 .theFooter {
   clear: both;
+}
+
+article footer {
+  text-align: right;
+}
+
+time {
+  color: #999;
+}
+
+/* Para que quede centrado y al no ser texto no 
+puedo usar text-align: center;
+asi que uso margin: auto; */
+img {
+  width: 80px;
+  display: block;
+  /* margin: auto; */
+  margin: 20px auto;
+}
+
+article footer {
+  margin-top: 20px;
+}
+
+.theFooter {
+  padding: 20px;
+  background: #2d3436;
+  color: #ffffff;
 }
