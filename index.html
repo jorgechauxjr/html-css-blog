@@ -3,6 +3,38 @@
   <head>
     <title>My blog</title>
     <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+      /* header {
+        background: black;
+        color: white;
+      }
+
+      #hd {
+        background: red;
+        color: white;
+      }
+
+      #hd2 {
+        background: green;
+        color: white;
+      }
+
+      footer {
+        background: green;
+      }
+
+      * {
+        background: green;
+      } 
+
+      blockquote[cite] {
+        background: green;
+      }
+      
+      */
+      
+    </style>
   </head>
   <body>
     <!--Header section-->
@@ -11,7 +43,7 @@
     </header>
     
     <!--Navigation bar-->
-    <nav>
+    <nav id="nv">
       <ul>
         <li>HOME</li>
         <li>ABOUT</li>
@@ -21,6 +53,7 @@
 
     <!--Main content-->
     <section>
+      <!-- ARTICLE 1 -->
       <article>
         <hgroup>
           <h1>First Article title</h1>
@@ -29,20 +62,21 @@
 	      
         <time datetime="2019-01-02">Published 2019-01-02</time>
         <p>Lorem <span> ipsum dolor </span> sit amet consectetur adipisicing elit. Ea consectetur voluptate molestias velit sed! <small>Laborum est eum, dicta nobis, nesciunt error, </small> animi quos quod <cite> perferendis assumenda odit</cite> illum eos perspiciatis!</p>
-
+        <img src="img/logo.png" />
         <footer>
           <p>Comments (0)</p>
         </footer>
       </article>
 
+      <!--ARTICLE 2-->
       <article>
         <hgroup>
-          <h1>Second Article title</h1>
+          <h1 class="green ">Second Article title</h1>
           <h2>Sec Subtitle</h2>
         </hgroup>
         <time datetime="2019-01-02">Published 2019-01-02</time>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio aperiam amet explicabo non possimus nulla odit veniam facilis illo tenetur! Facilis nostrum explicabo quasi ab, mollitia deleniti possimus illum animi!  </p>
-        <img src="img/logo.png" />
+        <p class="green">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio aperiam amet explicabo non possimus nulla odit veniam facilis illo tenetur! Facilis nostrum explicabo quasi ab, mollitia deleniti possimus illum animi!  </p>
+        
         <footer>
           <p>Comments (10)</p>
         </footer>
@@ -60,6 +94,10 @@
 
       <blockquote cite="https://www.scoan.org/">
         Quote 2
+      </blockquote>
+
+      <blockquote>
+        QUOTE!!!!3
       </blockquote>
     </aside>
 

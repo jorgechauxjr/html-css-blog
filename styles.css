@@ -1,0 +1,16 @@
+h1 {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  /* font-size: 14px;
+  font-family: sans-serif;
+  font-weight: bold; */
+  font: bold 14px sans-serif;
+};
+
+header, nav, section, article, aside, footer {
+  border: 1px solid black;
+};
