@@ -9,8 +9,8 @@ h2 {
   font-family: sans-serif;
   font-weight: bold; */
   font: bold 14px sans-serif;
-};
+}
 
 header, nav, section, article, aside, footer {
   border: 1px solid black;
-};
+}
