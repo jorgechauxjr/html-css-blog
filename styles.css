@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   font-size: 20px;
   font-family: sans-serif;
@@ -11,12 +16,78 @@ h2 {
   font: bold 14px sans-serif;
 }
 
-/* header,  nav, section, article, aside, footer hgroup{
-  border: 1px solid black;
-  display: block;
-} */
-
 header, section, footer, aside, nav, article, hgroup {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: block;
+}
+
+body {
+  text-align: center;
+}
+
+/* container of main info. Its size is 960px */
+.group {
+  /* background: green; */
+  border: 1px solid black;
+  width: 960px;
+  margin: 15px auto;
+  /* margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 500px; */
+  /* padding: 100px; */
+}
+
+.theHeader {
+  background: #FFFBB9;
+  border: 1px solid #999999;
+  padding: 20px;
+}
+
+.theHeader h1 {
+  text-align: left;
+}
+
+.menu {
+  background: #ccc;
+  padding: 5px 15px;
+  text-align: left;
+
+}
+
+/* Quitar los puntos de la lista -->  list-style-type: none;*/
+/* inline-block es para que sean en bloque */
+.menu li {
+  list-style-type: none;
+  padding: 5px;
+  font: bold 14px verdana ;
+  /* border: 1px solid black; */
+  display: inline-block;
+}
+
+/* The size is 600px, it is remaining 360 for the aside
+for a total of 960px. look up into group selector */
+.theSection {
+  border: 1px solid red;
+  /* background: greenyellow; */ 
+  margin: 20px;
+  /* padding: 20px; */
+  width: 600px;
+  float: left;
+  background: yellow;
+}
+
+/* width 300 para to occupy the 360 remaining */
+.theAside {
+  width: 300px;
+  border: 1px solid blue;
+  float: left;
+  background: yellow;
+  margin: 20px 0;
+}
+
+/* Hace que seccion antes de footer (aside y eccion principal) vuelva a la normalidad
+sin el float */
+.theFooter {
+  clear: both;
 }
